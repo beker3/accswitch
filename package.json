@@ -1,0 +1,9 @@
+{
+    "name": "AccSwitch",
+    "author": "Imbek",
+    "version": "1.1",
+    "description": "Free account switcher!",
+    "dependencies": {
+        "dium": "*"
+    }
+}

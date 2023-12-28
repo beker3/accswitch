@@ -1,0 +1,60 @@
+/* Общий стиль */
+body {
+  background-color: #36393f;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Заголовок */
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Поле ввода токена */
+.token-input {
+  width: 300px;
+  height: 30px;
+  padding: 5px;
+  border: 1px solid #72767d;
+  background-color: #2f3136;
+  color: #fff;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.token-input:focus {
+  outline: none;
+  border: 1px solid #7289da;
+}
+
+/* Кнопка добавления */
+.add-button {
+  background-color: #7289da;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  background-color: #677bc4;
+}
+
+/* Меню переключения аккаунтов */
+.account-menu {
+  width: 300px;
+  background-color: #2f3136;
+  padding: 10px;
+}
+
+.account-menu-item {
+  padding: 5px 0;
+}
+
+.account-menu-item:hover {
+  background-color: #36393f;
+}
